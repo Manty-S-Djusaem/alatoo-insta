@@ -1,0 +1,61 @@
+.main_content {
+
+  .upperBtn button,
+  .botBtn button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    text-align: left;
+    background-color: transparent;
+    border: none;
+    padding: 13px;
+    font-size: 16px;
+    color: #262626;
+    margin-bottom: 4px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+  }
+
+  .upperBtn button:hover,
+  .botBtn button:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+    outline: none;
+    width: 220px;
+    border-radius: 7px;
+  }
+
+  .upperBtn button img,
+  .botBtn button img {
+    margin-right: 12px;
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  .round-button {
+    border-radius: 50px;
+    background-color: #0095f6;
+    color: white;
+    padding: 8px 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .round-button img {
+    margin-right: 8px;
+  }
+
+  .botBtn{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 160px;
+  }
+}
